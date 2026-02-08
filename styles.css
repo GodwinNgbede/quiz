@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start h1 {
+  border: 2px solid navy;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-top: 1rem;
+}
+.start h1 a {
+  text-decoration: none;
+  color: navy;
+}
+.start h1:hover {
+  background: navy;
+}
+.start h1 a:hover {
+  color: white;
+}
+/* start.html */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.instruction {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid navy;
+  border-radius: 12px;
+  padding: 2em 1em;
+  margin: 10px;
+}
+.instruction h1 {
+  text-wrap: nowrap;
+  max-width: 120px;
+  display: flex;
+  justify-content: start;
+}
+.instruction p {
+  display: flex;
+  justify-content: center;
+  margin: 14px;
+  color: gray;
+  font-style: italic;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+.instruction ul {
+  font-size: 14px;
+  margin-top: 12px;
+}
+.instruction ul li {
+  margin: 15px;
+}
+.instruction ul li span {
+  font-weight: bold;
+  font-size: 16px;
+}
+.start-btn {
+  align-self: flex-end;
+  padding: 8px 15px;
+  cursor: pointer;
+  border: 2px solid navy;
+  border-radius: 12px;
+  background-color: navy;
+  color: white;
+}
+.start-btn:hover {
+  opacity: 0.65;
+  transition: opacity 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .instruction {
+    padding: 4em 3em;
+  }
+  .instruction ul {
+    font-size: 20px;
+  }
+  .instruction ul li span {
+    font-size: 23px;
+  }
+}
