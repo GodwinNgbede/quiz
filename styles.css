@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+.options {
+  background: navy;
+  color: red;
+  margin: 2rem;
+  padding: 12px 10px;
+}
 .start {
   display: flex;
   align-items: center;
@@ -73,10 +79,18 @@
   border-radius: 12px;
   background-color: navy;
   color: white;
+  text-decoration: none;
 }
 .start-btn:hover {
   opacity: 0.65;
   transition: opacity 0.3s ease;
+}
+/* question.html */
+.question-container {
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
 }
 
 @media (min-width: 768px) {
